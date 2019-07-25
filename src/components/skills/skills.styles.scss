@@ -1,0 +1,18 @@
+#skills {
+    position: relative;
+    top: 30px;
+    padding: 50px 0px;
+    min-height: 300px;
+
+    .skills-inner {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        min-height: 200px;
+
+        .skill {
+            width: 30%;
+            text-align: center;
+        }
+    }
+}

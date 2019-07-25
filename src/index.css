@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #FDF7FF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* GLOBAL SETTINGS */
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+#experience {
+    height: 300px;
+    padding: 50px 0px;
+    background: #eee;
+
+    .experience-inner {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        min-height: 200px;
+
+        .experience {
+            width: 30%;
+        }
+    }
+}
