@@ -36,6 +36,7 @@
         color: #eee;
         margin: 0;
         position: absolute;
+        right: 0px;
         transition: left 600ms ease;
         z-index: 2;
 
@@ -86,7 +87,7 @@
     ul.hidden {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 60%;
         height: 100vh;
         background: #4D8076;
         padding-top: 80px;
@@ -96,7 +97,7 @@
     ul.show {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 60%;
         height: 100vh;
         background: #4D8076;
         padding-top: 80px;

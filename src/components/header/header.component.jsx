@@ -9,7 +9,8 @@ class Header extends React.Component {
 
         this.state = {
             toggleClass: 'hidden',
-            bar: ''
+            bar: '',
+
         }
     }
 
@@ -22,7 +23,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <nav className="navbar" onScroll={handleScroll}>
+            <nav className="navbar">
                 <div className="container">
                     <div className='logo'>
                         W<span>Labastida</span>

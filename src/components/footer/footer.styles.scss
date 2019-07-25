@@ -1,4 +1,12 @@
 #footer {
-    height: 200px;
+    height: 150px;
+    padding: 50px 0;
     background: #00C9A7;
+
+    .footer-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
