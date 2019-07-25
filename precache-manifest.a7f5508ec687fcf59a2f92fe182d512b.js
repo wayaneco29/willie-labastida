@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "247f2095326c29a9eb048ce2199f3cea",
+    "revision": "f6d429189c4030b36f86b91675d15db8",
     "url": "/willie-labastida/index.html"
   },
   {
-    "revision": "6979c99488d2df9affb8",
-    "url": "/willie-labastida/static/css/main.c962d06a.chunk.css"
+    "revision": "ebaf82bcffdd264f52b0",
+    "url": "/willie-labastida/static/css/main.5a1a83a2.chunk.css"
   },
   {
     "revision": "58f496bc1ce27350f0eb",
     "url": "/willie-labastida/static/js/2.98dcc9dd.chunk.js"
   },
   {
-    "revision": "6979c99488d2df9affb8",
-    "url": "/willie-labastida/static/js/main.871640df.chunk.js"
+    "revision": "ebaf82bcffdd264f52b0",
+    "url": "/willie-labastida/static/js/main.458ef59a.chunk.js"
   },
   {
     "revision": "e8bc0855339d3cca9d69",
