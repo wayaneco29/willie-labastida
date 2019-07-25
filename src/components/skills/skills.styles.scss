@@ -4,15 +4,32 @@
     padding: 50px 0px;
     min-height: 300px;
 
+    .title {
+        text-align: center;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 65px;
+            height: 3px;
+            border-radius: 2px;
+            background: #00C9A7;
+            bottom: -4px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
     .skills-inner {
         display: flex;
         width: 100%;
         justify-content: space-between;
         min-height: 200px;
+    }
+}
 
-        .skill {
-            width: 30%;
-            text-align: center;
-        }
+@media (max-width: 768px) {
+    .skills-inner {
+        flex-direction: column;
     }
 }

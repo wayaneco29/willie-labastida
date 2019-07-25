@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Box from '../box/box.component';
+
 import './experience.styles.scss';
 
 const Experience = () => (
@@ -9,21 +11,9 @@ const Experience = () => (
                 Experience
             </h1>
             <div className="experience-inner">
-                <div className="experience">
-                    <h4>Company</h4>
-                    <span>Years</span>
-                    <p>Description</p>
-                </div>
-                <div className="experience">
-                    <h4>Company</h4>
-                    <span>Years</span>
-                    <p>Description</p>
-                </div>
-                <div className="experience">
-                    <h4>Company</h4>
-                    <span>Years</span>
-                    <p>Description</p>
-                </div>
+                <Box title='Company' years='2011-2012' description='description' />
+                <Box title='Company' years='2011-2012' description='description' />
+                <Box title='Company' years='2011-2012' description='description' />
             </div>
         </div>
     </section>

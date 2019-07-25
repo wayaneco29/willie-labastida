@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Box from '../box/box.component';
+
 import './skills.styles.scss';
 
 const Skills = () => (
@@ -7,18 +9,9 @@ const Skills = () => (
         <div className="container">
             <h1 className="title">Skills</h1>
             <div className="skills-inner">
-                <div className="skill">
-                    <h1>Fast learner</h1>
-                    <p>Description</p>
-                </div>
-                <div className="skill">
-                    <h1>Fast learner</h1>
-                    <p>Description</p>
-                </div>
-                <div className="skill">
-                    <h1>Fast learner</h1>
-                    <p>Description</p>
-                </div>
+                <Box title="Title1" description="description" />
+                <Box title="Title2" description="description" />
+                <Box title="Title3" description="description" />
             </div>
         </div>
     </section>

@@ -1,8 +1,8 @@
 {
-  "name": "myapp",
+  "name": "profile",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wayaneco29.github.io/monsters-rolodex",
+  "homepage": "https://wayaneco29.github.io/willie-labastida",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

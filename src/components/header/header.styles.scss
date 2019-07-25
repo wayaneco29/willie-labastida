@@ -7,6 +7,7 @@
     z-index: 1;
 
     .container {
+        position: relative;
         display: flex;
         justify-content: space-between;
     }
@@ -15,8 +16,8 @@
         color: #eee;
         font-size: 49px;
         margin-top: 8px;
-        cursor: pointer;
         position: relative;
+        cursor: pointer;
 
         span {
             font-size: 38px;
@@ -33,10 +34,94 @@
     ul {
         list-style: none;
         color: #eee;
+        margin: 0;
+        position: absolute;
+        transition: left 600ms ease;
+        z-index: 2;
 
         li {
+            cursor: pointer;
             display: inline-block;
-            padding: 10px 20px;
+            padding: 26px 20px;
+            transition: background 300ms ease;
+
+            &:hover {
+                background: #00C9A7;
+            }
+        }
+    }
+
+    .hamburger {
+        display: none;
+        width: 55px;
+        height: 55px;
+        position: relative;
+        top: 10px;
+        cursor: pointer;
+
+        span {
+            position: absolute;
+            left: 5px;
+            width: 80%;
+            height: 5px;
+            margin: 0 auto;
+            border-radius: 4px;
+            background: #eee;
+            transition: transform 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+        }
+
+        span:first-child {
+            top: 16%;
+        }
+        span:nth-child(2) {
+            top: 41%;
+        }
+        span:last-child {
+            top: 68%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    ul.hidden {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        background: #4D8076;
+        padding-top: 80px;
+        padding-left: 50px;
+        left: -100%;
+    }
+    ul.show {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 100vh;
+        background: #4D8076;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+        left: -13%;
+
+        li {
+            padding: 23px 20px;
+        }
+    }
+
+    .hamburger {
+        display: block !important;
+        span.rotate {
+            top: 25px !important;
+        }
+        span:first-child.rotate {
+            transform: rotate(45deg)
+        }
+        span:nth-child(2).rotate {
+            transform: rotate(-45deg)
+        }
+        span:last-child.rotate {
+            transform: rotate(-45deg)
         }
     }
 }
