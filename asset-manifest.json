@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/willie-labastida/static/css/main.5a1a83a2.chunk.css",
-    "main.js": "/willie-labastida/static/js/main.458ef59a.chunk.js",
-    "main.js.map": "/willie-labastida/static/js/main.458ef59a.chunk.js.map",
+    "main.css": "/willie-labastida/static/css/main.dd152574.chunk.css",
+    "main.js": "/willie-labastida/static/js/main.f05a5f81.chunk.js",
+    "main.js.map": "/willie-labastida/static/js/main.f05a5f81.chunk.js.map",
     "runtime~main.js": "/willie-labastida/static/js/runtime~main.a73b9896.js",
     "runtime~main.js.map": "/willie-labastida/static/js/runtime~main.a73b9896.js.map",
     "static/js/2.98dcc9dd.chunk.js": "/willie-labastida/static/js/2.98dcc9dd.chunk.js",
     "static/js/2.98dcc9dd.chunk.js.map": "/willie-labastida/static/js/2.98dcc9dd.chunk.js.map",
     "index.html": "/willie-labastida/index.html",
-    "precache-manifest.a7f5508ec687fcf59a2f92fe182d512b.js": "/willie-labastida/precache-manifest.a7f5508ec687fcf59a2f92fe182d512b.js",
+    "precache-manifest.37a0e902d4df3c3107338fe760313a30.js": "/willie-labastida/precache-manifest.37a0e902d4df3c3107338fe760313a30.js",
     "service-worker.js": "/willie-labastida/service-worker.js",
-    "static/css/main.5a1a83a2.chunk.css.map": "/willie-labastida/static/css/main.5a1a83a2.chunk.css.map",
+    "static/css/main.dd152574.chunk.css.map": "/willie-labastida/static/css/main.dd152574.chunk.css.map",
     "static/media/banner.jpg": "/willie-labastida/static/media/banner.55b3ec6a.jpg"
   }
 }
