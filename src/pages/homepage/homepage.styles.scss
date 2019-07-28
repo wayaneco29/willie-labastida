@@ -1,5 +1,42 @@
 .main {
     overflow-x: hidden;
+    
+    .toTop {
+        width: 60px;
+        height: 60px;
+        background: #00C9A7;
+        position: fixed;
+        bottom: -60px;
+        right: 12px;
+        transition: bottom 300ms ease;
+        border-radius: 50%;
+        outline: none;
+        cursor: pointer;
+
+        &.show {
+            bottom: 10px;
+        }
+
+        span {
+            width: 40%;
+            height:5px;
+            background: #eee;
+            position: absolute;
+            border-radius: 15px;
+            top: 45%;
+            transform: translateY(-50%);
+
+            &:first-child {
+                transform: rotate(-45deg);
+                left: 11px;
+            }
+            &:last-child {
+                transform: rotate(45deg);
+                right: 10px;
+            }
+            
+        }
+    }
 }
 
 ::-webkit-scrollbar {

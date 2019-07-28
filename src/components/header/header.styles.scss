@@ -96,9 +96,14 @@
         padding-top: 80px;
         padding-left: 50px;
         left: -100%;
+
+        li {
+            padding: 13px 20px;
+            margin: 10px 0;
+        }
         }
         &.show {
-            display: flex;
+        display: flex;
         flex-direction: column;
         width: 60%;
         height: 100vh;

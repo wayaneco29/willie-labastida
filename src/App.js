@@ -30,7 +30,7 @@ class App extends Component {
             }
           })
         })
-        alert(`Welcome ${user.displayName}`)
+        // alert(`Welcome ${user.displayName}`)
       } else {
         this.setState({ currentUser: user })
       }
