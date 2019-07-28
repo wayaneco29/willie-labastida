@@ -11,9 +11,9 @@ const Experience = () => (
                 Experience
             </h1>
             <div className="experience-inner">
-                <Box title='Company' years='2011-2012' description='description' />
-                <Box title='Company' years='2011-2012' description='description' />
-                <Box title='Company' years='2011-2012' description='description' />
+                <Box title='Company' years='2011-2012' description='description' styleProp='box-experience' />
+                <Box title='Company' years='2011-2012' description='description' styleProp='box-experience' />
+                <Box title='Company' years='2011-2012' description='description' styleProp='box-experience' />
             </div>
         </div>
     </section>

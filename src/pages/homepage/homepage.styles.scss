@@ -1,3 +1,20 @@
 .main {
     overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.2);
+    border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+    background: #00C9A7;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: rgb(37, 248, 213);
+}

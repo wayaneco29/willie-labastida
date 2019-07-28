@@ -1,5 +1,5 @@
 .banner {
-    min-height: 50vh;
+    height: 60vh;
     padding-top: 50px;
     padding-bottom: 40px;
     background-size: cover;
@@ -34,6 +34,7 @@
                 border-radius: 3px;
                 transition: background 300ms ease;
                 outline: none;
+                text-transform: uppercase;
                 cursor: pointer;
 
                 &:hover {
@@ -43,6 +44,7 @@
             }
             .arrow {
                 cursor: pointer;
+                outline: none;
                 bottom: 24px;
                 position: absolute;
                 border-left: 30px solid transparent;
@@ -61,6 +63,29 @@
             @keyframes bounce { 
                 100% {
                     padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        // height: 30vh;
+
+        .container {
+            height: 100%;
+            .banner-inner {
+                height: 100%;
+    
+                .welcome-title {
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+                .button {
+                    padding: 13px 18px;
+                    font-size: 13px;
+                    align-self: center;
                 }
             }
         }
