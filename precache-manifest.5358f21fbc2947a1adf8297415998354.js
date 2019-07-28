@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea5ea6ff2a00a5d1ccc528f482174d5a",
+    "revision": "a2c804fc6f0c4507667febc3c4afb367",
     "url": "/willie-labastida/index.html"
   },
   {
-    "revision": "f193ef1ab77725bb57ba",
+    "revision": "7a297e3bfebd61c48b29",
     "url": "/willie-labastida/static/css/main.200b09c0.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/willie-labastida/static/js/2.32f9c76f.chunk.js"
   },
   {
-    "revision": "f193ef1ab77725bb57ba",
-    "url": "/willie-labastida/static/js/main.f80d8c13.chunk.js"
+    "revision": "7a297e3bfebd61c48b29",
+    "url": "/willie-labastida/static/js/main.a4491205.chunk.js"
   },
   {
     "revision": "e8bc0855339d3cca9d69",
