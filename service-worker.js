@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/willie-labastida/precache-manifest.5358f21fbc2947a1adf8297415998354.js"
+  "/willie-labastida/precache-manifest.ee8ebc4484091732f670e067dea9407c.js"
 );
 
 self.addEventListener('message', (event) => {
