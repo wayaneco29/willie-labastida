@@ -11,3 +11,10 @@
         align-items: center;
     }
 }
+
+@media (max-width: 480px) {
+    #footer {
+        height: 110px;
+        font-size: 15px;
+    }
+}
